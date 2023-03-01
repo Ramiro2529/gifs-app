@@ -1,0 +1,9 @@
+
+  <h3 class="text-light">Gifs-App</h3>
+  <hr class="text-white" />
+
+  <div class="list-group list-reset">
+    <a href="#" (click)="buscar(nombre)" *ngFor="let nombre of historial"
+     class="list-group-item list-group-item-action"> {{nombre |titlecase}} </a>
+  </div>
+
